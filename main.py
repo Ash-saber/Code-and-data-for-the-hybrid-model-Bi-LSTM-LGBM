@@ -3,7 +3,6 @@
 Created on Mon May 29 15:25:25 2023
 
 @author: Steve
-对应于最终数据2
 """
 
 
@@ -48,7 +47,7 @@ def create_dataset(dataset, Fdataset, look_back, predict_step): #构造数据集
 
 #-------左线数据集-----
 
-file = r'所有数据\最终数据2\left_top.xlsx'
+file = r'data\left_top.xlsx'
 
 
 
@@ -115,7 +114,7 @@ LFdata_new = np.concatenate((LFdata,LFdata3),axis = 1)
 #-----------右线测试集----------
 right_dataset = []
 
-file = r'所有数据\最终数据2\right_top.xlsx'
+file = r'data\right_top.xlsx'
 
 
 RTSdata_x = np.empty(shape=[0,3,3])
