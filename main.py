@@ -19,7 +19,7 @@ import os
 path = r'D:\Program project\python project\pytorch\time_seris_2'
 os.chdir(path)
 
-from tools.util import *
+from tools.utils import *
 from tools.model_create import *
 
 np.random.seed(42)
